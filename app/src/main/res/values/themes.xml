@@ -3,6 +3,10 @@
     <style name="Base.Theme.PortfolioApp" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/portfolio_primary</item>
+        <item name="colorSecondary">@color/portfolio_secondary</item>
+        <item name="android:colorBackground">@color/portfolio_background</item>
+        <item name="android:textColorPrimary">@color/portfolio_text</item>
     </style>
 
     <style name="Theme.PortfolioApp" parent="Base.Theme.PortfolioApp" />
