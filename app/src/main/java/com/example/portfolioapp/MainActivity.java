@@ -29,6 +29,10 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(MainActivity.this, AboutActivity.class);
             startActivity(intent);
         });
+        binding.btnBlog.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, BlogActivity.class);
+            startActivity(intent);
+        });
 
     }
 }
